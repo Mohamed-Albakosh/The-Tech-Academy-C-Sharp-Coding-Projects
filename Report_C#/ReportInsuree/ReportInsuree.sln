@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportInsuree", "ReportInsuree\ReportInsuree.rptproj", "{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}.Debug|Default.ActiveCfg = Debug
+		{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}.Debug|Default.Build.0 = Debug
+		{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}.Debug|Default.Deploy.0 = Debug
+		{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}.DebugLocal|Default.Build.0 = DebugLocal
+		{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}.Release|Default.ActiveCfg = Release
+		{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}.Release|Default.Build.0 = Release
+		{5DDD3FCB-BF38-41B7-9312-3B43D7B03399}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43C33C42-2190-469D-90AC-4135CF61C285}
+	EndGlobalSection
+EndGlobal
