@@ -1,0 +1,58 @@
+﻿
+
+@using CarInsurance.Models
+@model List<CarInsurance.Models.Insuree>
+
+<div class="row no-gutters m-3">
+  <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+    <div class="card-header text-center">
+      <h5 class="m-0">Sign-ups</h5>
+    </div>
+    <div class="card-body">
+      @foreach (var insure in Model)
+      {
+        using (Html.BeginForm("Results", "Insuree", FormMethod.Post))
+        {
+          <input type="hidden" name="Id" value="@insure.Id" />
+          <div class="row m-3">
+            <div class="col-2">
+              @insure.FirstName
+            </div>
+            <div class="col">
+              @insure.LastName
+            </div>
+            <div class="col-4">
+              @insure.EmailAddress
+            </div>
+            <div class="col-4">
+              @insure.DateOfBirth
+            </div>
+            <div class="col-4">
+              @insure.CarYear
+            </div>
+            <div class="col-4">
+              @insure.CarMake
+            </div>
+            <div class="col-4">
+              @insure.CarModel
+            </div>
+            <div class="col-4">
+              @insure.DUI
+            </div>
+            <div class="col-4">
+              @insure.SpeedingTickets
+            </div>
+            <div class="col-4">
+              @insure.Quote
+            </div>
+
+          </div>
+        }
+
+      }
+
+    </div>
+  </div>
+</div>
+
+
